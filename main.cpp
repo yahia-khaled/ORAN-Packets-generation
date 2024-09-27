@@ -12,8 +12,8 @@ int main(int argc, char ** argv)
 {
     Ethernet_ORAN net;
 
-    // net.ReadConfig("second_milstone.txt");
-    // net.CreateOutput("output.txt");
+    net.ReadConfig("second_milstone.txt");
+    net.CreateOutput("output.txt");
 
     parse_file("output.txt");
 
