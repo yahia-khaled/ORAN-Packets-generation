@@ -25,4 +25,6 @@ extract each header and assign it in an equivalent variable such that it will be
 4. Generate an output file that contains the packet header.
 
 main.cpp<br />
-In this file, we just call functions to generate packets, then call functions for parsing the output file from generation.
+In this file, we just call functions to generate packets, then call functions for parsing the output file from generation.<br />
+
+makefile is used to automate the compilation and running of different cpp files
