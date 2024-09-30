@@ -25,3 +25,5 @@ There is a function that searches for the preamble sequence and starts to decode
 extract each header and assign it in an equivalent variable such that it will be used to create an output file that contains packet header information<br />
 4. Generate an output file that contains the packet header.
 
+main.cpp<br />
+In this file, we just call functions to generate packets, then call functions for parsing the output file from generation.
