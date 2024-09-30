@@ -1,7 +1,7 @@
-There are three CPP files,
-Ethernet.cpp
-have two main functions:
-first,read_configuration:
+There are three CPP files,<br />
+Ethernet.cpp<br />
+have two main functions:<br />
+first,read_configuration:<br />
 that read configuration from second_milestone.txt and read IQ samples from iq_sample.txt, then it checks output validity and consistency.
 second, generate an Ethernet frame in the following steps:
 1. calculation of variables and initialization
