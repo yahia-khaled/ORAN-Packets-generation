@@ -12,7 +12,7 @@ Ethernet, ecpri, and ORAN headers, then we output IQ samples such that each samp
 We start to calculate CRC bits by passing the payload of an Ethernet packet to the function CRC, which returns an array that contains 32-bit CRC.
 5. IFGs aligning and sending minimum IFGs<br />
 Send IFGs such that packets are 4-byte aligned, then send 12 IFGs that are minimum required between packets.
-6. Repeat 2-4 the above steps until the frame content is finished, then wait for frame duration to send the next frame content.
+6. Repeat 2-5 the above steps until the frame content is finished, then wait for frame duration to send the next frame content.
 
 parser.cpp<br />
 This code starts to take the output file from generation and extract the header information from it in the following steps:<br />
